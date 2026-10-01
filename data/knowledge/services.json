@@ -1,0 +1,50 @@
+{
+  "services": [
+    {
+      "id": "software-development",
+      "name": "Custom Software Development",
+      "keywords": ["software", "software development", "custom software", "enterprise", "backend", "architecture"],
+      "description": "End-to-end bespoke software engineering for enterprises and startups. We design scalable distributed architectures, robust APIs, microservices, and database solutions.",
+      "techStack": ["Node.js", "Python", "Java", "PostgreSQL", "MongoDB", "Docker", "Kubernetes", "AWS"]
+    },
+    {
+      "id": "website-development",
+      "name": "Website & Web Application Development",
+      "keywords": ["website", "web development", "web app", "frontend", "portal", "ecommerce"],
+      "description": "High-performance responsive websites, interactive web applications, client portals, and e-commerce platforms optimized for speed, SEO, and user experience.",
+      "techStack": ["React", "Next.js", "Node.js", "Tailwind CSS", "TypeScript", "HTML5", "REST APIs"]
+    },
+    {
+      "id": "mobile-apps",
+      "name": "Mobile Application Development",
+      "keywords": ["mobile app", "android", "ios", "app development", "mobile application", "flutter", "react native"],
+      "description": "Native and cross-platform mobile apps for iOS and Android. From intuitive UI/UX design to backend integration, push notifications, and App Store / Play Store deployment.",
+      "techStack": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
+    },
+    {
+      "id": "crm-solutions",
+      "name": "CRM Solutions & Integration",
+      "keywords": ["crm", "customer relationship management", "salesforce", "lead scoring", "crm integration"],
+      "description": "Custom CRM systems and integrations with platforms like Salesforce. Features automated lead management, pipeline tracking, customer analytics, and automated communication.",
+      "techStack": ["Salesforce", "Custom Node.js/Python CRM", "HubSpot integration", "Webhook automation"]
+    },
+    {
+      "id": "erp-services",
+      "name": "ERP Software Development",
+      "keywords": ["erp", "enterprise resource planning", "inventory", "billing", "supply chain"],
+      "description": "Custom enterprise resource planning systems streamlining multi-department workflows, real-time inventory tracking, vendor management, invoicing, and financial reporting.",
+      "techStack": ["Python", "Node.js", "PostgreSQL", "Cloud deployment"]
+    },
+    {
+      "id": "ai-automation",
+      "name": "AI Automation & Voice Receptionist",
+      "keywords": ["ai", "ai automation", "voice receptionist", "ai agent", "llm", "gemini", "twilio", "chatbot"],
+      "description": "Production-grade AI voice receptionists, autonomous conversational agents, document intelligence, and LLM workflow automations that operate 24/7.",
+      "techStack": ["Google Gemini", "Twilio Voice", "OpenAI", "LangChain", "Node.js", "Python"]
+    }
+  ],
+  "pricingPolicy": {
+    "philosophy": "Custom scope-based pricing.",
+    "rule": "We never quote fixed pricing upfront over phone calls. Every project receives a personalized proposal after a quick discovery consultation with our technical team."
+  }
+}

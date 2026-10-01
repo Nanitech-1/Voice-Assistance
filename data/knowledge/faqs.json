@@ -1,0 +1,35 @@
+{
+  "faqs": [
+    {
+      "question": "What are your office working hours?",
+      "keywords": ["hours", "working hours", "timing", "open", "time", "office hours"],
+      "answer": "Our office hours are Monday through Friday, 9:00 AM to 6:00 PM Indian Standard Time. We are closed on weekends."
+    },
+    {
+      "question": "Where is OneBridge Infotech located?",
+      "keywords": ["location", "office", "headquarters", "address", "where are you", "city"],
+      "answer": "OneBridge Infotech is headquartered in Hyderabad, Telangana, India. We serve clients and students globally."
+    },
+    {
+      "question": "How can I contact support or sales?",
+      "keywords": ["contact", "email", "support", "reach", "phone"],
+      "answer": "You can reach our team at support@onebridge.co or visit our website at onebridge.co."
+    },
+    {
+      "question": "How much do your services or courses cost?",
+      "keywords": ["pricing", "cost", "fee", "fees", "price", "how much", "charges"],
+      "answer": "Our pricing is customized based on your specific requirements and batch schedules. We provide personalized proposals after understanding your scope. May I take your name and contact number so our team can share the detailed fee structure?"
+    },
+    {
+      "question": "Can I book a consultation with leadership or Mr. Vinay Avala?",
+      "keywords": ["vinay", "founder", "consultation", "meeting", "ceo", "director", "call with vinay"],
+      "answer": "Yes, virtual consultation slots via Google Meet or phone can be scheduled with leadership. I can collect your name, phone number, and discussion topic to arrange this for you."
+    },
+    {
+      "question": "Do you offer certificates and job placement assistance?",
+      "keywords": ["certificate", "certification", "placement", "jobs", "hiring", "guarantee"],
+      "answer": "Yes, all students receive a recognized OneBridge Academy certification upon capstone completion, along with resume review through our AI Resume Analyzer and mock interview preparation."
+    }
+  ],
+  "escalationFallback": "I'll have one of our team members contact you shortly with the exact details. Could you please share your name and contact number?"
+}

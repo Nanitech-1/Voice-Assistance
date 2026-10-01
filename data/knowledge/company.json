@@ -1,0 +1,27 @@
+{
+  "companyName": "OneBridge Infotech",
+  "brandNames": ["OneBridge", "OneBridge Infotech", "OneBridge Academy", "GoLive Classes", "OneBridge Social"],
+  "headquarters": "Hyderabad, Telangana, India",
+  "leadership": {
+    "founderAndExecutive": "Vinay Avala",
+    "consultations": "Leadership consultations and strategic software architecture meetings are scheduled virtually via Google Meet or phone."
+  },
+  "contact": {
+    "email": "support@onebridge.co",
+    "website": "https://onebridge.co",
+    "officeHours": "Monday through Friday, 9:00 AM to 6:00 PM (IST). Closed on weekends."
+  },
+  "overview": "OneBridge Infotech is a premier technology consulting, custom software engineering, and corporate training organization. We build scalable web applications, mobile apps, CRM systems, AI voice agents, and deliver industry-aligned technical training programs.",
+  "products": [
+    {
+      "name": "OneBridge Academy",
+      "type": "SaaS Platform",
+      "description": "AI Career Intelligence SaaS platform featuring AI Resume Analyzer with ATS Score Checker, AI Mock Interview Studio for real-time voice practice, and automated campus hiring solutions."
+    },
+    {
+      "name": "OneBridge Social",
+      "type": "SaaS Platform",
+      "description": "Social Media Management SaaS for agencies and brands featuring multi-platform visual post scheduling across LinkedIn, Instagram, X, and Facebook with team approval workflows and analytics."
+    }
+  ]
+}

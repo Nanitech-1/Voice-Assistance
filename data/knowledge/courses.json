@@ -1,0 +1,105 @@
+{
+  "division": "OneBridge Academy & GoLive Classes",
+  "overview": "Industry-grade training programs led by real-world practitioners with hands-on projects, resume review, mock interviews, and recognized course completion certifications.",
+  "mode": "Live online interactive classes, weekend & weekday batches available.",
+  "courses": [
+    {
+      "id": "outsystems-training",
+      "name": "OutSystems Low-Code Development & Certification Training",
+      "keywords": ["outsystems", "outsystems training", "low code", "reactive web", "mobile low code"],
+      "duration": "6 to 8 weeks",
+      "curriculum": [
+        "Low-code architecture and OutSystems Service Studio",
+        "Data modeling, aggregates, and advanced SQL queries",
+        "Reactive web apps & native mobile design",
+        "Integrations via REST/SOAP APIs and authentication",
+        "Associate Reactive Developer certification preparation"
+      ],
+      "highlights": "Hands-on enterprise capstone project and official certification guidance."
+    },
+    {
+      "id": "cybersecurity-training",
+      "name": "Cybersecurity & Ethical Hacking Training",
+      "keywords": ["cybersecurity", "cyber security", "ethical hacking", "infosec", "network security", "penetration testing"],
+      "duration": "8 to 10 weeks",
+      "curriculum": [
+        "Network fundamentals, firewalls, and packet analysis",
+        "Web application vulnerability assessment (OWASP Top 10)",
+        "Ethical hacking tools: Kali Linux, Wireshark, Burp Suite, Metasploit",
+        "Cloud security and incident response procedures",
+        "Security compliance standards and defensive blueprints"
+      ],
+      "highlights": "Live lab environments, real attack-defense simulations, and career mentoring."
+    },
+    {
+      "id": "react-training",
+      "name": "React.js & Frontend Engineering",
+      "keywords": ["react", "react js", "reactjs", "frontend", "nextjs", "javascript"],
+      "duration": "6 weeks",
+      "curriculum": [
+        "Modern ES6+ JavaScript & TypeScript fundamentals",
+        "React core: components, JSX, props, state, and life-cycles",
+        "Advanced hooks: useEffect, useMemo, useCallback, custom hooks",
+        "State management with Redux Toolkit and Context API",
+        "Routing, API integrations, Tailwind CSS, and Next.js essentials"
+      ],
+      "highlights": "Build 3 production-grade web applications from scratch."
+    },
+    {
+      "id": "node-training",
+      "name": "Node.js & Backend Engineering",
+      "keywords": ["node", "nodejs", "node js", "backend", "express", "apis"],
+      "duration": "6 weeks",
+      "curriculum": [
+        "Node.js runtime, event loop, and asynchronous programming",
+        "Building RESTful APIs with Express.js",
+        "Database integration with MongoDB (Mongoose) and PostgreSQL",
+        "Authentication: JWT, OAuth2, bcrypt, role-based access control",
+        "API security, middleware architecture, and cloud deployment"
+      ],
+      "highlights": "Deploy live backend services with automated testing and Docker."
+    },
+    {
+      "id": "python-training",
+      "name": "Python Programming & Generative AI Engineering",
+      "keywords": ["python", "python training", "data science", "generative ai", "ai engineering"],
+      "duration": "8 weeks",
+      "curriculum": [
+        "Core Python data structures, OOP, and file handling",
+        "Data manipulation with Pandas, NumPy, and Matplotlib",
+        "Building APIs with FastAPI and Flask",
+        "Generative AI, LangChain, prompt engineering, and LLM APIs",
+        "Automation scripting and cloud deployment"
+      ],
+      "highlights": "GoLive Classes certified curriculum including real AI agent projects."
+    },
+    {
+      "id": "java-training",
+      "name": "Core & Advanced Java with Spring Boot",
+      "keywords": ["java", "core java", "advanced java", "spring boot", "microservices"],
+      "duration": "8 to 10 weeks",
+      "curriculum": [
+        "Core Java: OOP principles, collections framework, multithreading",
+        "Java 8+ features: Lambdas, Streams API, Optional",
+        "Spring Boot microservices architecture and Spring Data JPA",
+        "Hibernate ORM, MySQL/PostgreSQL integration",
+        "Building, testing, and containerizing enterprise REST APIs"
+      ],
+      "highlights": "Enterprise-standard coding practices preparing for Tier-1 IT roles."
+    },
+    {
+      "id": "full-stack-courses",
+      "name": "Full Stack Web Development (MERN & Enterprise Stack)",
+      "keywords": ["full stack", "fullstack", "mern", "mern stack", "mean stack", "web development course"],
+      "duration": "12 to 16 weeks",
+      "curriculum": [
+        "Frontend: HTML5, CSS3, Tailwind, JavaScript, React.js",
+        "Backend: Node.js, Express.js, RESTful microservices",
+        "Databases: MongoDB Atlas and relational PostgreSQL",
+        "DevOps & Deployment: Git, GitHub, Docker, AWS/Render",
+        "Career Accelerator: Resume optimization via OneBridge Academy and mock interview practice"
+      ],
+      "highlights": "Comprehensive zero-to-hero career program with 5 portfolio projects and placement assistance."
+    }
+  ]
+}

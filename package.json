@@ -1,0 +1,56 @@
+{
+  "name": "ai-voice-receptionist",
+  "version": "1.0.0",
+  "description": "AI Voice Receptionist for OneBridge Infotech powered by Twilio + Gemini",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "tunnel": "node scripts/tunnel.js",
+    "tunnel:lt": "node scripts/tunnel-lt.js",
+    "test:gemini": "node scripts/test-gemini.js",
+    "test:leads": "node scripts/test-leads.js",
+    "test:knowledge": "node scripts/test-knowledge.js",
+    "test:conversation": "node scripts/test-conversation-rules.js",
+    "test:history": "node scripts/test-call-history.js",
+    "test:api": "node scripts/test-rest-apis.js",
+    "test:logging": "node scripts/test-logging.js",
+    "audit": "node scripts/verify-production-readiness.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "ai",
+    "voice",
+    "receptionist",
+    "twilio",
+    "gemini",
+    "nodejs"
+  ],
+  "author": "OneBridge Infotech",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "helmet": "^7.0.0",
+    "mongoose": "^9.9.4",
+    "morgan": "^1.10.0",
+    "twilio": "^5.0.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "ngrok": "^4.3.3",
+    "nodemon": "^3.0.0",
+    "supertest": "^7.2.2"
+  },
+  "allowScripts": {
+    "ngrok@4.3.3": true
+  }
+}

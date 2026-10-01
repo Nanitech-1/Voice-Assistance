@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: onebridge-ai-voice-receptionist
+    runtime: node
+    plan: starter # or free
+    region: singapore # Closest low-latency region to India/Hyderabad
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: info
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false # Set securely in Render dashboard
+      - key: TWILIO_ACCOUNT_SID
+        sync: false # Set securely in Render dashboard
+      - key: TWILIO_AUTH_TOKEN
+        sync: false # Set securely in Render dashboard
+      - key: TWILIO_PHONE_NUMBER
+        sync: false # Set securely in Render dashboard
+      - key: GEMINI_API_KEY
+        sync: false # Set securely in Render dashboard
+      - key: BASE_URL
+        fromHost: true # Automatically populates with https://onebridge-ai-voice-receptionist.onrender.com
